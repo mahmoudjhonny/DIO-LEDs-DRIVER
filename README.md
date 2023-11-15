@@ -36,7 +36,3 @@ This project demonstrates a simple LED toggling system using three LEDs (LED1, L
 ## Example Image
 
 ![Project Setup](Assets/LEDS.gif)
-
----
-
-Feel free to customize this README based on your specific project details and preferences. If you have additional information or specific instructions, make sure to include them for better clarity.
