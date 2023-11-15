@@ -4,7 +4,7 @@
  * Created: 11/14/2023 2:23:45 PM
  * Author : Mahmoud
  */ 
-#define F_CPU 16000000UL
+#define F_CPU 1000000ul
 #include "BIT_MATH.h"
 #include "STD_TYPE.h"
 #include "DIO_PRIVATE.h"
@@ -27,7 +27,6 @@ int main(void)
 				LED_THREE_Void_ON();
 				_delay_ms(250);
 				LED_Void_THREE_OFF();
-				while(BUTTON_PUSH() == HIGH);
 		}
 	}
 }
